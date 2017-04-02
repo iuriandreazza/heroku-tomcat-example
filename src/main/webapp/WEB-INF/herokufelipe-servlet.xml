@@ -10,7 +10,9 @@
         http://www.springframework.org/schema/context/spring-context.xsd">
 
     <context:component-scan base-package="com.controllers" />
-
+    <mvc:annotation-driven />
+    <mvc:default-servlet-handler />
+    
     <bean id="viewResolver"
           class="org.springframework.web.servlet.view.UrlBasedViewResolver">
         <property name="viewClass"
