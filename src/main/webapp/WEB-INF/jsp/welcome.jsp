@@ -2,6 +2,8 @@
 <head>
     <title>Spring MVC Tutorial by Crunchify - Hello World Spring MVC
         Example</title>
+    <link rel="stylesheet" type="text/css" href="/resources/main.css">
+    <sty
     <style type="text/css">
         body {
             background-image: url('http://crunchify.com/bg.png');
