@@ -1,0 +1,6 @@
+{
+  "name": "Heroku: Java",
+  "description": "Java app deployed to heroku.",
+  "image": "heroku/java",
+  "addons": [ "heroku-postgresql" ]
+}
